@@ -1,0 +1,3 @@
+-source code -> "step by step instruction written in a programming language"
+-machine code -> "code understandable by computer which is in binary"
+-compiler -> "translates source code to machine code"

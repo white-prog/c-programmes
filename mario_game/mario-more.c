@@ -17,7 +17,7 @@ int main(){
         
 
     }
-    //I solved it by simply drawing table and 4 rows and 10 columns in it if there '#' not present i make it empty else print '#'
+    //Ask user to prompt in between 1 to 8
 
 
 

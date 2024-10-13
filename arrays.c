@@ -9,18 +9,25 @@ int len(int arr[]){
     return count;
     
 }
-int *doubled(int arr[],int length){
-    for (int i = 0; i < length; i++)
-    {
-        arr[i] = arr[i] * 2;
-    }
-    return arr;
-
+int multiple(int num){
+    return num * 2;
 }
+
 
 int main(){
     int arr[10] = {1,2,3,4,5};
-    printf("%d",len(arr));
+    int arr2[12];
+    for (int i = 0; i < len(arr); i++)
+    {
+        arr2[i] = arr[i] * 2;
+    }
+    for (int j = 0; j < len(arr2); j++)
+    {
+        printf("%d ",arr2[j]);
+    }
+    
+    int number1 = multiple(5);
+    printf("\nA function initialized to variable %d",number1);
     
 
 

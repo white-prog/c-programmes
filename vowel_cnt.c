@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main(){
-    char *letters = "how jhon eats cheese";
+    char *letters = "how jhon eats cheese and burger";
     int vowel = 0;
     for (int i = 0; i < strlen(letters); i++)
     {

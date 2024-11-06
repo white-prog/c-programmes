@@ -9,4 +9,4 @@ int main(){
     return 0;//exit status
 }
 //& Provides the address of something stored in memory.
- // * Instructs the compiler to go to a location in memory.
+// * Instructs the compiler to go to a location in memory.

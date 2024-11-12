@@ -14,8 +14,9 @@ int main(){
 
     char *name = "messi";
     char *player = "neymar";
+    char *pl = "messi";
 
-    if (name == player)
+    if (name == pl)
     {
         printf("\nSame");
     }else{
@@ -29,6 +30,8 @@ int main(){
     }
     printf("\n%p\n",name);
     printf("\n%p\n",player);
+    printf("\n%c\n",*(pl));
+    printf("over");
 
 
 

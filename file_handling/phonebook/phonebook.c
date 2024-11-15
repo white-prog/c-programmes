@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(void)
+int main(int argc, char *argv[])
 {
     // Open CSV file
     FILE *file = fopen("phonebook.csv", "a");//open file in edit mode
@@ -17,7 +17,8 @@ int main(void)
 
     // Print to file
     fprintf(file, "Name : %s,Number : %s\n", name, number);
-    FILE *file_read = fopen("phonebook.csv", "r");//open file in read mode
+    FILE *file_read = fopen(argv[1], "r");//open file in read mode from command line
+    //opened file in password/password.txt by running ./phonebook password/password.txt
 
     char c = fgetc(file_read);
     while (c != EOF) {
@@ -28,4 +29,5 @@ int main(void)
     // Close file
     fclose(file);
     fclose(file_read);
+    return 0;
 }

@@ -1,0 +1,3 @@
+line number : 9 , '&' address of variable added to take input using 'scanf()'
+line number : 14 , loop index out error fixed
+

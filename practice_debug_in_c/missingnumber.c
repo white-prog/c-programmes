@@ -25,9 +25,9 @@ int findMissingNumber(int arr[], int size) {
     int totalSum = (size + 1) * (size + 2) / 2; // Calculate the total sum of 1 to n+1
     int actualSum = 0;
 
-    for (int i = 0; i <= size; i++) { // Loop to calculate the actual sum of array elements
+    for (int i = 0; i < size; i++) { // Loop to calculate the actual sum of array elements
         actualSum += arr[i];
     }
 
-    return actualSum - totalSum; // Return the missing number
+    return totalSum - actualSum; // Return the missing number
 }

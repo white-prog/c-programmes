@@ -21,7 +21,7 @@ int main(){
         printf("%i\n", list->number);
         list = list->next;
     }
-
+    
 
     return 0;
 }
